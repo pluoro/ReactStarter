@@ -1,0 +1,61 @@
+$darker-light : #e2f2e3;
+$light: #F5F6F7;
+$body-color: #F8FAFC;
+$divider-color: #eaeaea;
+$blue: #0288d1;
+$dark-gray: #2d2d2d;
+$hover-gray: #3d4449;
+$gray: #7f888f;
+$green: #48CCBB;
+
+$purple: #bf6cff;
+$dark-purple: #9041ff;
+$orange: #F78469;
+$pink: #DE70E3;
+$social-blue: #6689FF;
+$yellow: #FECA76;
+$green: #16CDBB;
+
+.fill-blue{
+  fill: $blue;
+  &:hover{
+    fill: darken($blue, 15);
+  }
+}
+.fill-orange{
+  fill: $orange;
+  &:hover{
+    fill: darken($orange, 15);
+  }
+}
+.fill-pink{
+  fill: $pink;
+  &:hover{
+    fill: darken($pink, 15);
+  }
+}
+.fill-social-blue{
+  fill: $social-blue;
+  &:hover{
+    fill: darken($social-blue, 15);
+  }
+}
+.fill-yellow{
+  fill: $yellow;
+  &:hover{
+    fill: darken($yellow, 15);
+  }
+}
+.fill-green{
+  fill: $green;
+  &:hover{
+    fill: darken($green, 15);
+  }
+}
+
+.fill-purple{
+  fill: $purple;
+  &:hover{
+    fill: darken($purple, 15);
+  }
+}
